@@ -1,7 +1,8 @@
 ---
 const { platform, username } = Astro.props;
+const path = platform === 'LinkedIn' ? `in/${username}` : username;
 ---
-<a href={`https://www.${platform}.com/${username}`}>{platform}</a>
+<a href={`https://www.${platform}.com/${path}`}>{platform}</a>
 
 <style>
   a {
