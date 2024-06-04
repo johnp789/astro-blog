@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My First Blog Post'
-pubDate: 2023-05-08
+pubDate: 2024-05-30T12:00:00-05:00
 description: 'This is the first post of my new Astro blog.'
 author: 'John Pitney'
 image:
@@ -9,15 +9,15 @@ image:
     alt: 'The full Astro logo.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+Welcome to my _new blog_ about learning Astro!  I started out this blog by following a nice [Astro blog tutorial](https://docs.astro.build/en/tutorial/0-introduction/).  The blog content is stored in [GitHub](https://github.com/johnp789/astro-blog) and published to [CloudFlare Pages](https://pages.cloudflare.com/).
 
-## What I've accomplished
+## What I like
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+1. **Learning Astro**: The blog tutorial was excellent.  It covered all the things I wanted to see.
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+2. **Making Pages**: Markdown is pretty nice.  Having the whole blog site come together using frontmatter and Javascript is slick.
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+3. **Site Performance**: So far, the blog site scores well on Chrome Lighthouse and feels fast.
 
 ## What's next
 
