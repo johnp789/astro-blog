@@ -9,7 +9,7 @@ image:
     alt: 'The full Astro logo.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-Welcome to my _new blog_ about learning Astro!  I started out this blog by following a nice [Astro blog tutorial](https://docs.astro.build/en/tutorial/0-introduction/).  The blog content is stored in [GitHub](https://github.com/johnp789/astro-blog) and published to [CloudFlare Pages](https://pages.cloudflare.com/).
+Welcome to my _new blog_!  I started out this blog by following a nice [Astro blog tutorial](https://docs.astro.build/en/tutorial/0-introduction/).  The blog content is stored in [GitHub](https://github.com/johnp789/astro-blog) and published to [CloudFlare Pages](https://pages.cloudflare.com/).
 
 ## What I like
 

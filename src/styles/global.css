@@ -58,6 +58,11 @@ h1 {
   background-color: #ff9776;
 }
 
+html.dark .nav-links a:hover,
+html.dark .nav-links a:focus {
+  background-color: #662200;
+}
+
 .expanded {
   display: unset;
 }
@@ -82,10 +87,36 @@ h1 {
 }
 
 html.dark {
-  background-color: #0d0950;
+  background-color: #121212;
   color: #fff;
 }
 
-.dark .nav-links a {
-  color: #fff;
+html.dark a {
+  color: #809fff;
+}
+
+a {
+  color: #00539F;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  margin: 0.25em;
+  border: dotted 1px #a1a1a1;
+  border-radius: .5em;
+  padding: .5em 1em;
+  font-size: 1.15em;
+  background-color: #F8FCFD;
+}
+
+html.dark .tag {
+  background-color: #2e3e50;
+}
+
+html.dark .tag a {
+  color: #FFFFFF;
 }
